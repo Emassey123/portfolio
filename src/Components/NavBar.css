@@ -60,7 +60,7 @@ header {
   .slider {
     position: fixed;
     min-width: 100%;
-    height: 55vh;
+    height: 100vh;
     top: -100%;
     background-color: firebrick;
     -webkit-transition: 1s ease;

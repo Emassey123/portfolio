@@ -26,7 +26,7 @@
 .desktop-image-wrapper {
     height: 500px;
     width: 800px;
-    margin: 5rem;
+    margin: 3rem;
     //     // background: black;
 }
 
@@ -72,12 +72,111 @@
     }
 }
 
+.card-skills {
+    font-size: 2rem;
+}
+
+.github-button,
+.website-button {
+    padding: .5rem 1rem;
+    margin: 2.5rem 2rem;
+    background-color: red;
+    border-radius: 1rem;
+    border: 2px solid white;
+    font-size: 1.3rem;
+
+    &:hover {
+        background: transparent;
+        transition: .5s all ease;
+    }
+}
+
+.button-link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 @media (max-width: 900px) {
     .card-image-wrapper {
         flex-direction: column;
     }
 
     .desktop-image-wrapper {
-        width: 700px;
+        width: 600px;
+    }
+}
+
+@media (max-width:600px) {
+    .desktop-image-wrapper {
+        width: 450px;
+    }
+
+    .card-skills {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .card-heading {
+        .card-name {
+            font-size: 2rem;
+        }
+
+        .card-date {
+            font-size: 1rem;
+        }
+    }
+
+    .desktop-image-wrapper {
+        width: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &.desktop-image-1 {
+            background-image: url("../../public/images/gateway.png");
+        }
+
+        &.desktop-image-2 {
+            background-image: url("../../public/images/katf.png");
+        }
+
+        &.desktop-image-3 {
+            background-image: url("../../public/images/newsoutlet.png");
+        }
+
+        &.desktop-image-4 {
+            background-image: url("../../public/images/ecom.png");
+        }
+
+        &.desktop-image-5 {
+            background-image: url("../../public/images/tesla.png");
+        }
+
+        .desktop-image {
+            display: none;
+        }
+    }
+
+
+    .card-description {
+        .card-body-heading {
+            font-size: 2rem;
+            margin: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .card-skills {
+        font-size: 1.1rem;
+    }
+
+    .github-button,
+    .website-button {
+        margin: 1.5rem 1rem;
     }
 }

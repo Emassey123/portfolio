@@ -13,11 +13,11 @@ const Home = () => {
         );
       })} */}
       <section className="home-section-flex">
-        <img
+        {/* <img
           className="headshot-image"
           src="./images/headshot1.png"
           alt="headshot"
-        />
+        /> */}
         <div className="typing">
           <p>Learner : true,</p>
           <p>Creator : true,</p>

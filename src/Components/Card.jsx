@@ -12,7 +12,9 @@ const Card = ({ Data }) => {
               <p className="card-date">{project.date}</p>
             </div>
             <div className="card-image-wrapper">
-              <div className="desktop-image-wrapper">
+              <div
+                className={`desktop-image-wrapper desktop-image-${project.id}`}
+              >
                 <img
                   className="desktop-image"
                   src={project.image}
@@ -44,11 +46,15 @@ const Card = ({ Data }) => {
                 <h1 className="card-body-heading">Skills:</h1>
                 <h3 className="card-skills">{project.skills}</h3>
                 <div className="button-group">
-                  <button>
-                    <a href={project.github}>View GitHub</a>
+                  <button className="github-button">
+                    <a href={project.github} className="button-link">
+                      View GitHub
+                    </a>
                   </button>
-                  <button>
-                    <a href={project.link}>View Website</a>
+                  <button className="website-button">
+                    <a href={project.link} className="button-link">
+                      View Website
+                    </a>
                   </button>
                 </div>
                 <hr></hr>
