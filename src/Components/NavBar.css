@@ -1,0 +1,116 @@
+header {
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.slider ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider ul li {
+  margin-block: 1rem;
+  margin-inline: 2rem;
+  list-style: none;
+}
+
+.slider ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu-icon,
+.menu {
+  display: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closed {
+  display: none;
+  cursor: pointer;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+.closed .close {
+  font-size: 30px;
+}
+
+@media (max-width: 900px) {
+  .slider {
+    position: fixed;
+    min-width: 100%;
+    height: 55vh;
+    top: -100%;
+    background-color: firebrick;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+    z-index: 1;
+  }
+  .slider-active {
+    top: 0;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+  .slider ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .slider ul li {
+    margin-block: 2.5rem;
+    list-style: none;
+  }
+  .slider ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .menu-icon,
+  .menu {
+    display: block;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .closed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+  }
+  .closed .close {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=navBar.css.map */
