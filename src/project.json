@@ -3,9 +3,6 @@
         "name": "Gateway",
         "skills": "HTML | CSS",
         "image": "./images/gateway.png",
-        "mobile_image": "",
-        "purpose": "I did this project because...",
-        "keypoint": "Semantic HTML",
         "date": "November 2021",
         "github": "https://github.com/Emassey123/gatewayProjectRedo",
         "link": "https://emassey123.github.io/gatewayProjectRedo/"
@@ -15,9 +12,6 @@
         "name": "Kids Are The Future",
         "skills": "HTML | CSS",
         "image": "./images/katf.png",
-        "mobile_image": "",
-        "purpose": "I did this project because...",
-        "keypoint": "Semantic HTML",
         "date": "December 2021",
         "github": "https://github.com/djarkas/SIJW",
         "link": "https://djarkas.github.io/SIJW/"
@@ -27,9 +21,6 @@
         "name": "News Outlet",
         "skills": "HTML | CSS | JS | NodeJS",
         "image": "./images/newsoutlet.png",
-        "mobile_image": "./images/newsoutlet-mobile.png",
-        "purpose": "I did this project because...",
-        "keypoint": "Semantic HTML",
         "date": "Feburary 2022",
         "github": "https://github.com/ArriolaHarold2001/hopeHacks",
         "link": "http://c9newsoutlet.com/"
@@ -37,11 +28,8 @@
     {
         "id": 4,
         "name": "Ecommerce Website",
-        "skills": "HTML | CSS | ReactJS | JS | MySQL",
+        "skills": "HTML | CSS | NodeJS | ReactJS | JS | MySQL",
         "image": "./images/ecom.png",
-        "mobile_image": "./images/ecom-mobile.png",
-        "purpose": "I did this project because...",
-        "keypoint": "Semantic HTML",
         "date": "March 2022",
         "github": "https://github.com/Emassey123/ecommercev2",
         "link": "https://emmanuel-hattricks.herokuapp.com/"
@@ -49,11 +37,8 @@
     {
         "id": 5,
         "name": "Tesla Redesign",
-        "skills": "HTML | CSS | ReactJS | JS | MySQL",
+        "skills": "HTML | CSS | NodeJS | ReactJS | JS | MySQL",
         "image": "./images/tesla.png",
-        "mobile_image": "./images/tesla-mobile.png",
-        "purpose": "I did this project because...",
-        "keypoint": "Semantic HTML",
         "date": "April 2022",
         "github": "https://github.com/rsiraj/teslaclone",
         "link": "http://dylisthebest.c9tesla.com/"

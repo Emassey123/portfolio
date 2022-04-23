@@ -1,8 +1,7 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
-import { Link } from "react-router-dom";
-import "./NavBar.scss";
+import "./NavBar.css";
 import { useState } from "react";
 const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -20,19 +19,29 @@ const NavBar = () => {
             <AiOutlineClose className="close" onClick={showMenu} />
           </div>
           <li>
-            <Link to="/home">Home</Link>
+            <a href="#home" onClick={showMenu}>
+              Home
+            </a>
           </li>
           <li>
-            <Link to="/aboutme">About Me</Link>
+            <a href="#aboutme" onClick={showMenu}>
+              About Me
+            </a>
           </li>
           <li>
-            <Link to="/skills">Skills</Link>
+            <a href="#skills" onClick={showMenu}>
+              Skills
+            </a>
           </li>
           <li>
-            <Link to="/portfolio">Portfolio</Link>
+            <a href="#portfolio" onClick={showMenu}>
+              Portfolio
+            </a>
           </li>
           <li>
-            <Link to="/contactme">Contact Me</Link>
+            <a href="#contact" onClick={showMenu}>
+              Contact Me
+            </a>
           </li>
         </ul>
       </nav>

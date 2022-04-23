@@ -1,0 +1,38 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-me p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+
+}
+
+
+
+
+
+@media (max-width: 900px) {
+    .about-me p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+
+    .about-me p {
+        font-size: 1.3rem;
+    }
+
+}

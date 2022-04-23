@@ -1,0 +1,133 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left-side {
+    background: black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.hero-right-side {
+    background: rgba(8, 112, 184, 0.7);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.hero-title {
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+.hero-subtitle {
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+
+
+.hero-left-side-title,
+.hero-left-side-subtitle {
+    color: rgba(8, 112, 184, 0.7);
+
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px white;
+}
+
+.hero-right-side-title,
+.hero-right-side-subtitle {
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(8, 112, 184, 0.7);
+}
+
+.hero-button {
+    font-size: 1.5rem;
+    margin: .5rem;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    border: .3rem solid white;
+    background: transparent;
+    color: white;
+}
+
+.hero-button:hover {
+    color: white;
+    background: transparent;
+    transition: 0.3s ease-in-out;
+    border: .3rem solid white;
+    cursor: pointer;
+}
+
+.hero-right-side-button:hover {
+    background: black;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-left-side-button:hover {
+    background: rgba(8, 112, 184, 0.7);
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 900px) {
+    .hero-title {
+        font-size: 2.5rem;
+        margin: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    .hero-button {
+        font-size: 1.5rem;
+        margin: 1rem .5rem;
+        padding: .5rem 2.5rem;
+    }
+
+    .hero-left-side-title,
+    .hero-left-side-subtitle {
+        color: rgba(8, 112, 184, 0.7);
+
+        text-shadow: none;
+    }
+
+    .hero-right-side-title,
+    .hero-right-side-subtitle {
+        text-shadow: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-title {
+        font-size: 1.7rem;
+        margin: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+        margin: 0 .5rem;
+    }
+
+    .hero-button {
+        font-size: 1rem;
+        margin: .5rem;
+        padding: .3rem 1.5rem;
+        border: .2rem solid white;
+    }
+}

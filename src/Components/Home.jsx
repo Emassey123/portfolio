@@ -1,30 +1,18 @@
 import React from "react";
 import Data from "../project.json";
+import Skills from "./Skills";
 import Card from "./Card";
-import "./Home.scss";
+import Form from "./Form";
+import Hero from "./Hero";
+import About from "./About";
 const Home = () => {
   return (
     <section>
-      {/* {Data.map((project) => {
-        return (
-          <div key={project.id}>
-            <img src={project.image} alt="" />
-          </div>
-        );
-      })} */}
-      <section className="home-section-flex">
-        {/* <img
-          className="headshot-image"
-          src="./images/headshot1.png"
-          alt="headshot"
-        /> */}
-        <div className="typing">
-          <p>Learner : true,</p>
-          <p>Creator : true,</p>
-          <p>Developer : true</p>
-        </div>
-      </section>
+      <Hero />
+      <About />
+      <Skills />
       <Card Data={Data} />
+      <Form />
     </section>
   );
 };
