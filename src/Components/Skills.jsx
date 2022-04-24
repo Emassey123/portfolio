@@ -10,35 +10,63 @@ const Skills = () => {
           <section className="skill-wrapper">
             <h1 className="skills-title">Front End</h1>
             <ul className="skills-list">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>REACT</li>
+              <li>
+                <p>HTML</p>
+              </li>
+              <li>
+                <p>CSS</p>
+              </li>
+              <li>
+                <p>REACT</p>
+              </li>
             </ul>
           </section>
           <section className="skill-wrapper">
             <h1 className="skills-title">Back End</h1>
             <ul className="skills-list">
-              <li>NodeJS</li>
-              <li>MySQL</li>
-              <li>API</li>
-              <li>JavaScript</li>
+              <li>
+                <p>NodeJS</p>
+              </li>
+              <li>
+                <p>MySQL</p>
+              </li>
+              <li>
+                <p>API</p>
+              </li>
+              <li>
+                <p>JavaScript</p>
+              </li>
             </ul>
           </section>
           <section className="skill-wrapper">
             <h1 className="skills-title">Tools</h1>
             <ul className="skills-list">
-              <li>VS Code</li>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>Marvel</li>
+              <li>
+                <p>VS Code</p>
+              </li>
+              <li>
+                <p>Git</p>
+              </li>
+              <li>
+                <p>GitHub</p>
+              </li>
+              <li>
+                <p>Marvel</p>
+              </li>
             </ul>
           </section>
           <section className="skill-wrapper">
             <h1 className="skills-title">Future Technology/Languages</h1>
             <ul className="skills-list">
-              <li>Java</li>
-              <li>Spring Boot</li>
-              <li>AWS</li>
+              <li>
+                <p>Java</p>
+              </li>
+              <li>
+                <p>Spring Boot</p>
+              </li>
+              <li>
+                <p>AWS</p>
+              </li>
             </ul>
           </section>
         </section>

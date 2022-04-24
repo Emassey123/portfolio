@@ -32,7 +32,7 @@
     width: 100%;
     min-width: none;
     max-width: 600px;
-    box-shadow: 0 20px 50px black;
+    box-shadow: 0 5px 10px black;
     border-radius: 1rem;
 
 
@@ -63,6 +63,7 @@
 .github-button a,
 .website-button a {
     color: white;
+    font-weight: bold;
 }
 
 .github-button,

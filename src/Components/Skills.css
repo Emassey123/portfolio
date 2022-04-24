@@ -11,8 +11,7 @@
 .skill-wrapper {
     border-radius: 1rem;
     border: 2px solid white;
-    box-shadow: 0 20px 50px black;
-    /* color: white; */
+    box-shadow: 0 5px 10px black;
 }
 
 .skills-grid {
@@ -23,11 +22,11 @@
 }
 
 .skills-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem 0;
     font-weight: bold;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .skills-list {
@@ -38,9 +37,9 @@
     flex-direction: column;
 }
 
-.skills-list li {
+.skills-list li p {
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 @media (max-width: 900px) {

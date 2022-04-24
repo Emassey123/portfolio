@@ -51,6 +51,7 @@ button {
     padding: 1rem 1.5rem;
     border: none;
     background: white;
+    color: black;
     cursor: pointer;
 }
 
