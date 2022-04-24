@@ -29,6 +29,7 @@ header {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    color: black;
 
 }
 
@@ -66,7 +67,6 @@ header {
     .slider-active {
         top: 0;
         transition: .3s ease-in;
-        /* transition: .3s ease-out; */
     }
 
     .slider ul {
