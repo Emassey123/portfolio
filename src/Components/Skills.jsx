@@ -56,7 +56,7 @@ const Skills = () => {
             </ul>
           </section>
           <section className="skill-wrapper">
-            <h1 className="skills-title">Future Technology/Languages</h1>
+            <h1 className="skills-title">Future Skills</h1>
             <ul className="skills-list">
               <li>
                 <p>Java</p>

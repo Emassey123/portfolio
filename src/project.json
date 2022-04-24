@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "name": "Kids Are The Future",
+        "name": "KATF",
         "skills": "HTML | CSS",
         "image": "./images/katf.png",
         "date": "December 2021",
@@ -27,7 +27,7 @@
     },
     {
         "id": 4,
-        "name": "Ecommerce Website",
+        "name": "Ecommerce",
         "skills": "HTML | CSS | NodeJS | ReactJS | JS | MySQL",
         "image": "./images/ecom.png",
         "date": "March 2022",
