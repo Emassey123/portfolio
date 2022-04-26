@@ -30,7 +30,6 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     color: black;
-
 }
 
 .menu-icon,
@@ -92,6 +91,7 @@ header {
         color: black;
         font-size: 30px;
         cursor: pointer;
+        margin-left: .2rem;
     }
 
     .closed {

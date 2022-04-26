@@ -9,9 +9,11 @@
 }
 
 .skill-wrapper {
+    margin: 0 auto;
     border-radius: 1rem;
     border: 2px solid white;
     box-shadow: 0 5px 10px black;
+    width: 375px;
 }
 
 .skills-grid {
@@ -45,6 +47,10 @@
 @media (max-width: 900px) {
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skill-wrapper {
+        width: 250px;
     }
 }
 
