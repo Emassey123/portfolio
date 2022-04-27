@@ -36,15 +36,19 @@ const Card = ({ Data }) => {
                       View GitHub
                     </a>
                   </button>
-                  <button className="website-button">
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      className="button-link"
-                    >
-                      View Website
-                    </a>
-                  </button>
+                  {project.link ? (
+                    <button className="website-button">
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        className="button-link"
+                      >
+                        View Website
+                      </a>
+                    </button>
+                  ) : (
+                    ""
+                  )}
                 </div>
               </div>
             </div>

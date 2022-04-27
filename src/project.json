@@ -36,6 +36,14 @@
     },
     {
         "id": 5,
+        "name": "SQL Case Study",
+        "skills": "MySQL",
+        "image": "./images/sqlCaseStudy.png",
+        "date": "March 2022",
+        "github": "https://github.com/rsiraj/teslaclone"
+    },
+    {
+        "id": 6,
         "name": "Tesla Redesign",
         "skills": "HTML | CSS | NodeJS | ReactJS | JS | MySQL",
         "image": "./images/tesla.png",
@@ -43,6 +51,7 @@
         "github": "https://github.com/rsiraj/teslaclone",
         "link": "http://dylisthebest.c9tesla.com/"
     }
+
 
 
 ]
